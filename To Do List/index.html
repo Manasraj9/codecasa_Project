@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel='stylesheet' type='text/css' ' media="screen" href="style.css"/>
+    <title>To Do List Web App</title>
+  </head>
+
+  <body>
+    
+    <div class="wrap"><h1>To do List</h1>
+      <div class="task-input">
+        <ion-icon name="create-outline"></ion-icon>
+        <input type="text" placeholder="Add a New Task + Enter" />
+      </div>
+      <div class="cont">
+        <div class="filt">
+          <span class="act" id="all"><b>All</b></span>
+          <span id="pend"><b>Pending</b></span>
+          <span id="comp"><b>Completed</b></span>
+        </div>
+        <button class="clr-btn"><b>Clear All</b></button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
